@@ -25,7 +25,7 @@
         "display7Font": "Rubik",
         "display7Size": "1.2",
         "display4Font": "Rubik",
-        "display4Size": 1,
+        "display4Size": "1.2",
         "isRoundedButtons": true,
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": true
