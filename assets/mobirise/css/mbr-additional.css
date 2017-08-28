@@ -1341,18 +1341,18 @@ body {
   background-image: url("../../../assets/images/notadoor-polina-bk-2000x1091.png");
 }
 .cid-qtlBtGVQ6E {
-  padding-top: 60px;
+  padding-top: 75px;
   padding-bottom: 0px;
   background-image: url("../../../assets/images/notadoor-background-2000x1350.png");
 }
 .cid-qthnZOeO9y .navbar {
   padding: .5rem 0;
-  background: #767676;
+  background: #2e2e2e;
   transition: none;
   min-height: 77px;
 }
 .cid-qthnZOeO9y .navbar-dropdown.bg-color.transparent.opened {
-  background: #767676;
+  background: #2e2e2e;
 }
 .cid-qthnZOeO9y a {
   font-style: normal;
@@ -1430,7 +1430,7 @@ body {
   padding-bottom: 0;
 }
 .cid-qthnZOeO9y .dropdown .dropdown-menu {
-  background: #767676;
+  background: #2e2e2e;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -1719,7 +1719,7 @@ body {
 .cid-qthvyZ0HPn {
   padding-top: 0px;
   padding-bottom: 15px;
-  background-color: #767676;
+  background-color: #cebfaf;
 }
 .cid-qthvyZ0HPn .mbr-slider .carousel-control {
   background: #1b1b1b;
@@ -1763,14 +1763,14 @@ body {
   text-align: center;
 }
 .cid-qtlCAYe06c {
-  padding-top: 60px;
+  padding-top: 75px;
   padding-bottom: 0px;
   background-image: url("../../../assets/images/notadoor-background-2000x1350.png");
 }
 .cid-qtiZYfXwR7 {
   padding-top: 0px;
   padding-bottom: 15px;
-  background-color: #efefef;
+  background-color: #cebfaf;
 }
 .cid-qtiZYfXwR7 .mbr-slider .carousel-control {
   background: #1b1b1b;
@@ -1811,7 +1811,7 @@ body {
   transition: 0.2s background ease-in-out;
 }
 .cid-qtxxarTaLy {
-  padding-top: 60px;
+  padding-top: 75px;
   padding-bottom: 0px;
   background-image: url("../../../assets/images/notadoor-background-2000x1350.png");
 }
@@ -1859,7 +1859,7 @@ body {
   transition: 0.2s background ease-in-out;
 }
 .cid-qtlFXje946 {
-  padding-top: 60px;
+  padding-top: 75px;
   padding-bottom: 0px;
   background-image: url("../../../assets/images/notadoor-background-2000x1350.png");
 }
