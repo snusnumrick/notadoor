@@ -432,11 +432,11 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/512a0532-edit-875x2000.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/512a0532-edit-875x2000-800x1828.jpg",
+                "image": "@PROJECT_PATH@/assets/images/512a0116-875x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/512a0116-875x2000-800x1828.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "AVENUE",
+                "caption": "COLORE",
                 "active": false
               },
               {
@@ -444,11 +444,11 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/512a0116-875x2000.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/512a0116-875x2000-800x1828.jpg",
+                "image": "@PROJECT_PATH@/assets/images/512a0532-edit-875x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/512a0532-edit-875x2000-800x1828.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "COLORE",
+                "caption": "AVENUE",
                 "active": false
               },
               {
@@ -474,6 +474,18 @@
                 "customStyle1": "display-7",
                 "caption": "OPERA",
                 "active": false
+              },
+              {
+                "tags": "Modern",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/512a0374-edit-896x2048.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/512a0374-edit-896x2048-800x1828.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "ALBERO",
+                "active": true
               },
               {
                 "tags": "Modern",
@@ -545,7 +557,7 @@
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Sliding door",
-                "active": true
+                "active": false
               }
             ]
           }
@@ -637,78 +649,6 @@
             "text_all": "All",
             "gallery": [
               {
-                "tags": "Handles",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/512a0195-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/512a0195-2000x1333-800x533.jpg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "",
-                "active": true
-              },
-              {
-                "tags": "Handles",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/512a0166-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/512a0166-2000x1333-800x533.jpg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "",
-                "active": false
-              },
-              {
-                "tags": "Handles",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/512a0406-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/512a0406-2000x1333-800x533.jpg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "",
-                "active": false
-              },
-              {
-                "tags": "Handles",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/512a0122-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/512a0122-2000x1333-800x533.jpg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "",
-                "active": false
-              },
-              {
-                "tags": "Handles",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/512a0186-edit-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/512a0186-edit-2000x1333-800x533.jpg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "",
-                "active": false
-              },
-              {
-                "tags": "Locks",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/512a0217-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/512a0217-2000x1333-800x533.jpg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "Magnetic lock",
-                "active": false
-              },
-              {
                 "tags": "Hinges",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
@@ -718,6 +658,18 @@
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Butterfly hinge",
+                "active": false
+              },
+              {
+                "tags": "Handles",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/512a0195-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/512a0195-2000x1333-800x533.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "",
                 "active": false
               },
               {
@@ -733,15 +685,15 @@
                 "active": false
               },
               {
-                "tags": "Hinges",
+                "tags": "Handles",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/512a0239-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/512a0239-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/512a0122-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/512a0122-2000x1333-800x533.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Pivot hinge",
+                "caption": "",
                 "active": false
               },
               {
@@ -754,6 +706,66 @@
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Lift latch lock",
+                "active": true
+              },
+              {
+                "tags": "Locks",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/512a0217-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/512a0217-2000x1333-800x533.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Magnetic lock",
+                "active": false
+              },
+              {
+                "tags": "Handles",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/512a0406-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/512a0406-2000x1333-800x533.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "",
+                "active": false
+              },
+              {
+                "tags": "Hinges",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/512a0239-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/512a0239-2000x1333-800x533.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Pivot hinge",
+                "active": false
+              },
+              {
+                "tags": "Handles",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/512a0186-edit-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/512a0186-edit-2000x1333-800x533.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "",
+                "active": false
+              },
+              {
+                "tags": "Handles",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/512a0166-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/512a0166-2000x1333-800x533.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "",
                 "active": false
               }
             ]
