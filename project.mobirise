@@ -291,7 +291,7 @@
               "color": "#47190d"
             },
             "P": {
-              "color": "#ff8000",
+              "color": "#47190d",
               "text-align": "right"
             },
             "B": {
@@ -319,7 +319,7 @@
                 "image": "@PROJECT_PATH@/assets/images/512a0711-2000x1152.jpg",
                 "active": false,
                 "showButtons": false,
-                "showText": true,
+                "showText": false,
                 "showTitle": false,
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -334,9 +334,9 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/512a0664-edit-2000x1152.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
-                "showText": true,
+                "showText": false,
                 "showTitle": false,
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -346,12 +346,12 @@
                 "title": "FULL SCREEN SLIDER",
                 "overlay": false,
                 "contentAlign": "center",
-                "text": "<b>not</b> <i>EVEN</i> <b>a door</b>, <br>but an entrance to your world",
+                "text": "<b><br></b><br><br><br><br><br><br><br><b>not</b> <i>EVEN</i> <b>a door</b>, <br>but an entrance to your world",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/-dsc1408-edit-2000x1333.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": false,
@@ -363,7 +363,7 @@
                 "title": "not JUST a door, but a style statement",
                 "overlay": false,
                 "contentAlign": "right",
-                "text": "<b>not </b><i>JUST </i><b>a door</b>, <br>but a style statement",
+                "text": "<b>not </b><i>JUST </i><b>a door</b>, <br>but a style statement<br><b>not</b> ONLY <b>a door</b>, <br>but a complete experience<br><b>not</b> EVEN <b>a door</b>, <br>but an entrance to your world<br>",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>",
                 "overlayOpacity": "0.3"
               }
