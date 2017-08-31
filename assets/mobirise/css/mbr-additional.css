@@ -1578,7 +1578,11 @@ body {
   color: #47190d;
 }
 .cid-qtyVcb3pdO P {
-  color: #47190d;
+  color: #ff8000;
+  text-align: right;
+}
+.cid-qtyVcb3pdO B {
+  color: #ff8000;
 }
 .cid-qtlBtGVQ6E {
   padding-top: 15px;
