@@ -4,7 +4,7 @@
     "currentPage": "index.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 40,
-    "versionPublish": "4.2.0",
+    "versionPublish": "4.2.3",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -292,10 +292,13 @@
             },
             "P": {
               "color": "#47190d",
-              "text-align": "right"
+              "text-align": "center"
             },
             "B": {
               "color": "#47190d"
+            },
+            "I": {
+              "color": "#ff4e00"
             }
           },
           "_name": "slider1",
@@ -316,42 +319,8 @@
             "slides__showBullets": true,
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/512a0711-2000x1152.jpg",
-                "active": false,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": false,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-1",
-                "customStyle2": "display-2",
-                "customStyle3": "display-4",
-                "title": "nhhh",
-                "overlay": false,
-                "contentAlign": "center",
-                "text": "<b>not</b> ONLY <b>a door</b>, <br>but a complete experience",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/512a0664-edit-2000x1152.jpg",
-                "active": true,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": false,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-1",
-                "customStyle2": "display-2",
-                "customStyle3": "display-4",
-                "title": "FULL SCREEN SLIDER",
-                "overlay": false,
-                "contentAlign": "center",
-                "text": "<b><br></b><br><br><br><br><br><br><br><b>not</b> <i>EVEN</i> <b>a door</b>, <br>but an entrance to your world",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
                 "image": "@PROJECT_PATH@/assets/images/-dsc1408-edit-2000x1333.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": false,
@@ -363,9 +332,43 @@
                 "title": "not JUST a door, but a style statement",
                 "overlay": false,
                 "contentAlign": "right",
-                "text": "<b>not </b><i>JUST </i><b>a door</b>, <br>but a style statement<br><b>not</b> ONLY <b>a door</b>, <br>but a complete experience<br><b>not</b> EVEN <b>a door</b>, <br>but an entrance to your world<br>",
+                "text": "<b>not</b> <b><i>only</i></b> <b>a door</b>, <br>but a complete <br>experience",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>",
                 "overlayOpacity": "0.3"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/512a0711-edit-2000x1148.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": false,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "customStyle1": "display-1",
+                "customStyle2": "display-2",
+                "customStyle3": "display-4",
+                "title": "nhhh",
+                "overlay": false,
+                "contentAlign": "center",
+                "text": "<b>not</b> <b><i>only</i></b> <b>a door</b>, <br>but a complete experience",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/512a0664-edit-2000x1152.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": false,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "customStyle1": "display-1",
+                "customStyle2": "display-2",
+                "customStyle3": "display-4",
+                "title": "FULL SCREEN SLIDER",
+                "overlay": false,
+                "contentAlign": "center",
+                "text": "<b>not</b>&nbsp;<font color=\"#ff4e00\"><b><i>even</i></b></font>&nbsp;<b>a door</b>, <br>but an entrance to your world",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn  display-4 btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> "
               }
             ]
           }
@@ -444,7 +447,7 @@
             }
           },
           "_name": "gallery3",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffeee1\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"0\" mbr-gallery-show-text mbr-gallery-show-filter mbr-gallery-show-bullets></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffeee1\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"3\" mbr-gallery-show-text mbr-gallery-show-filter mbr-gallery-show-bullets></div>\n    </div>\n\n</section>",
           "_cid": "qthvyZ0HPn",
           "_anchor": "gallery3-k",
           "_protectedParams": [
@@ -473,47 +476,11 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/512a0532-edit-875x2000.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/512a0532-edit-875x2000-800x1828.jpg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "AVENUE",
-                "active": false
-              },
-              {
-                "tags": "Classic",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/512a0052-edit-896x2048.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/512a0052-edit-896x2048-800x1828.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "MEDICI",
-                "active": false
-              },
-              {
-                "tags": "Classic",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/512a0091-875x2000.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/512a0091-875x2000-800x1828.jpg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "OPERA",
-                "active": false
-              },
-              {
-                "tags": "Modern",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/512a0374-edit-896x2048.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/512a0374-edit-896x2048-800x1828.jpg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "ALBERO",
                 "active": false
               },
               {
@@ -538,18 +505,6 @@
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "SHINY",
-                "active": false
-              },
-              {
-                "tags": "Modern",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/512a0194-edit-896x2048.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/512a0194-edit-896x2048-800x1828.jpg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "FORMA",
                 "active": true
               },
               {
@@ -569,8 +524,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/512a0326-875x2000.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/512a0326-875x2000-800x1828.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-896x2048.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/896x2048-800x1828.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Folding door for tight spaces",
@@ -593,8 +548,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/512a0293-896x2048.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/512a0293-896x2048-800x1828.jpg",
+                "image": "@PROJECT_PATH@/assets/images/512a0293-edit-896x2048.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/512a0293-edit-896x2048-800x1828.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Sliding door",
@@ -766,8 +721,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/512a0263-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/512a0263-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/512a0283-edit-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/512a0283-edit-2000x1333-800x533.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Sliding door handle",
