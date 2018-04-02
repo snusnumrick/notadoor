@@ -34,7 +34,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.6",
-    "uniqCompNum": 73,
+    "uniqCompNum": 74,
     "versionPublish": "4.6.6",
     "screenshot": "screenshot.png"
   },
@@ -1225,6 +1225,62 @@
           "_customHTML": "<section class=\"slider3 slider\" group=\"Carousels & Sliders\" plugins=\"amp-main,amp-carousel\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen Bg\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <select title=\"Images\" name=\"imagesAmount\">\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\" selected>6</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background8.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ddd5d0\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"container-fluid\">\n        <div class=\"container\">\n            <h2 mbr-if=\"showTitle\" class=\"mbr-section-title align-center mbr-fonts-style mbr-bold mbr-white\" mbr-theme-style=\"display-2\">\n                Interior doors for every taste</h2>\n            <h3 mbr-if=\"showSubTitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style mbr-white\" mbr-theme-style=\"display-5\">Our Doors are made from solid wood and wear multi level finish; being it elaborate shape, natural wood veneer or paint in variety of colors, protected in high quality enamel. They could feature metal or glass inlays or have decorative glass sections with desired degree of opaqueness.</h3>\n        </div>\n        <div class=\"slider-box\">\n            <amp-carousel class=\"carousel\" height=\"400\" layout=\"fixed-height\" type=\"carousel\">\n              <amp-img class=\"carousel-img\" src=\"@PROJECT_PATH@/assets/images/line-1-brandy-834x1801.jpg\" height=\"400\" width=\"185.2304275402554\" alt=\"Mobirise\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/line-1-brandy-834x1801.jpg\" alt=\"Mobirise\" title></amp-img>\n              <amp-img class=\"carousel-img\" src=\"@PROJECT_PATH@/assets/images/download-97x200.jpg\" mbr-class=\"{'super-hide': imagesAmount < 2}\" height=\"400\" width=\"194\" alt=\"Mobirise\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/download-97x200.jpg\" alt=\"Mobirise\" title></amp-img>\n              <amp-img class=\"carousel-img\" src=\"@PROJECT_PATH@/assets/images/forma-50-gray-910x1962.jpg\" mbr-class=\"{'super-hide': imagesAmount < 3}\" height=\"400\" width=\"185.5249745158002\" alt=\"Mobirise\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/forma-50-gray-910x1962.jpg\" alt=\"Mobirise\" title></amp-img>\n              <amp-img class=\"carousel-img\" src=\"@PROJECT_PATH@/assets/images/02-ral-9010-940x1968.jpg\" mbr-class=\"{'super-hide': imagesAmount < 4}\" height=\"400\" width=\"191.0569105691057\" alt=\"Mobirise\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/02-ral-9010-940x1968.jpg\" alt=\"Mobirise\" title></amp-img>\n              <amp-img class=\"carousel-img\" src=\"@PROJECT_PATH@/assets/images/colore-design-1192-arctic-flat-910x1963.jpg\" mbr-class=\"{'super-hide': imagesAmount < 5}\" height=\"400\" width=\"185.43046357615893\" alt=\"Mobirise\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/colore-design-1192-arctic-flat-910x1963.jpg\" alt=\"Mobirise\" title></amp-img>\n              <amp-img class=\"carousel-img\" src=\"@PROJECT_PATH@/assets/images/shiny-13-bianco-910x1963.jpg\" mbr-class=\"{'super-hide': imagesAmount < 6}\" height=\"400\" width=\"185.43046357615893\" alt=\"Mobirise\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/shiny-13-bianco-910x1963.jpg\" alt=\"Mobirise\" title></amp-img>  \n            </amp-carousel>\n        </div>\n        <div class=\"container\">\n            <p class=\"mbr-text align-center mbr-fonts-style mbr-white\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae cupiditate rerum ipsum tempora vero. Fugit facilis possimus assumenda ipsa, sapiente eius sunt fuga saepe nemo. Necessitatibus consequuntur, recusandae consequatur suscipit.</p>\n            <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobirise.com\">VIEW MORE IN THE CATALOG</a></div>\n        </div>\n    </div>\n</section>",
           "_cid": "qO0L9fARgO",
           "_anchor": "slider6-20",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".carousel-img": {
+              "width": "100%",
+              "text-align": "center",
+              "margin": "0"
+            },
+            ".container-fluid": {
+              "max-width": "100%",
+              "padding": "0"
+            },
+            ".amp-carousel-button": {
+              "width": "50px",
+              "height": "50px",
+              "border-radius": "50%"
+            },
+            ".mbr-section-subtitle": {
+              "padding-bottom": "2rem",
+              "color": "#47190d"
+            },
+            ".mbr-section-title": {
+              "& when not (@showSubTitle)": {
+                "padding-bottom": "2rem"
+              }
+            },
+            "p.mbr-text": {
+              "padding-top": "2rem",
+              "padding-bottom": "0",
+              "margin": "0"
+            },
+            ".mbr-section-btn": {
+              "padding-top": "2rem"
+            },
+            "H2": {
+              "color": "#47190d"
+            }
+          },
+          "_name": "slider6",
+          "_customHTML": "<section class=\"slider3 slider\" group=\"Carousels & Sliders\" plugins=\"amp-main,amp-carousel\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen Bg\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <select title=\"Images\" name=\"imagesAmount\">\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\" selected>6</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background8.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ddd5d0\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"container-fluid\">\n        <div class=\"container\">\n            <h2 mbr-if=\"showTitle\" class=\"mbr-section-title align-center mbr-fonts-style mbr-bold mbr-white\" mbr-theme-style=\"display-2\">Opening Systems that suit Your space</h2>\n            <h3 mbr-if=\"showSubTitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style mbr-white\" mbr-theme-style=\"display-5\">Besides traditional way of opening door by rotating around hinges, we offer ROTO, SLIDING, INVISIBLE, FOLDING and TWICE mechanisms.\n            </h3>\n        </div>\n        <div class=\"slider-box\">\n            <amp-carousel class=\"carousel\" height=\"400\" layout=\"fixed-height\" type=\"carousel\">\n              <amp-img class=\"carousel-img\" src=\"@PROJECT_PATH@/assets/images/post-2024-0-74376500-1473117337-913x913.jpg\" height=\"400\" width=\"400\" alt=\"Mobirise\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/post-2024-0-74376500-1473117337-913x913.jpg\" alt=\"Mobirise\" title></amp-img>\n              <amp-img class=\"carousel-img\" src=\"@PROJECT_PATH@/assets/images/twicesistemaotkryvanija-1200x752.jpg\" mbr-class=\"{'super-hide': imagesAmount < 2}\" height=\"400\" width=\"638.2978723404256\" alt=\"Mobirise\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/twicesistemaotkryvanija-1200x752.jpg\" alt=\"Mobirise\" title></amp-img>\n              <amp-img class=\"carousel-img\" src=\"@PROJECT_PATH@/assets/images/invisiblesistemaotkryvanija-1200x600.jpg\" mbr-class=\"{'super-hide': imagesAmount < 3}\" height=\"400\" width=\"800\" alt=\"Mobirise\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/invisiblesistemaotkryvanija-1200x600.jpg\" alt=\"Mobirise\" title></amp-img>\n              <amp-img class=\"carousel-img\" src=\"@PROJECT_PATH@/assets/images/dverknizhkasistemaotkryvanija-1200x900.jpg\" mbr-class=\"{'super-hide': imagesAmount < 4}\" height=\"400\" width=\"533.3333333333333\" alt=\"Mobirise\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/dverknizhkasistemaotkryvanija-1200x900.jpg\" alt=\"Mobirise\" title></amp-img>\n              <amp-img class=\"carousel-img\" src=\"@PROJECT_PATH@/assets/images/dverkupesistemyotkryvanija-1200x600.jpg\" mbr-class=\"{'super-hide': imagesAmount < 5}\" height=\"400\" width=\"800\" alt=\"Mobirise\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/dverkupesistemyotkryvanija-1200x600.jpg\" alt=\"Mobirise\" title></amp-img>\n              <amp-img class=\"carousel-img\" src=\"@PROJECT_PATH@/assets/images/rotodversistemaotkryvanija-1200x900.jpg\" mbr-class=\"{'super-hide': imagesAmount < 6}\" height=\"400\" width=\"533.3333333333333\" alt=\"Mobirise\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/rotodversistemaotkryvanija-1200x900.jpg\" alt=\"Mobirise\" title></amp-img>  \n            </amp-carousel>\n        </div>\n        <div class=\"container\">\n            <p class=\"mbr-text align-center mbr-fonts-style mbr-white\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae cupiditate rerum ipsum tempora vero. Fugit facilis possimus assumenda ipsa, sapiente eius sunt fuga saepe nemo. Necessitatibus consequuntur, recusandae consequatur suscipit.</p>\n            <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                <a class=\"btn btn-md btn-black\" href=\"https://mobirise.com\">VIEW MORE</a>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qO1tssuwaT",
+          "_anchor": "slider6-21",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
